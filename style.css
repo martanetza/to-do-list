@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+}
+table {
+  width: 70vw;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+th {
+  width: 200px;
+  text-align: left;
+}
+
+form > *,
+form span {
+  display: block;
+  width: 70vw;
+  margin: 0px auto;
+}
+
+h1,
+h2 {
+  width: 70vw;
+  margin: 10px auto;
+}
+form textarea {
+  width: 69.6vw;
+  max-width: 69.6vw;
+  min-width: 69.6vw;
+}
+
+input[name="task"]:invalid + span::after {
+  color: red;
+  content: "The field must contain at least 3 letters";
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+  vertical-align: center;
+}
+.assignee_comment::after {
+  content: "haha";
+}
