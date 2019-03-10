@@ -40,5 +40,6 @@ td {
   vertical-align: center;
 }
 .assignee_comment::after {
-  content: "haha";
+  content: "This field is required";
+  color: red;
 }

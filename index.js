@@ -63,11 +63,11 @@ document
     if (form.elements.assignee.checkValidity()) {
       document
         .querySelector(".assignee_span")
-        .classList.remove("assignee_comment::after");
+        .classList.remove("assignee_comment");
     } else {
       document
         .querySelector(".assignee_span")
-        .classList.add("assignee_comment::after");
+        .classList.add("assignee_comment");
     }
     if (form.checkValidity()) {
       document.querySelectorAll("input, textarea").forEach(e => {
