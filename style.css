@@ -39,6 +39,15 @@ td {
   height: 50px;
   vertical-align: center;
 }
+
+td button {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+.button_del {
+  align-content: right;
+}
 .assignee_comment::after {
   content: "This field is required";
   color: red;
